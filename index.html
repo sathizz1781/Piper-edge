@@ -1,0 +1,99 @@
+<!-- HTML code for the table -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body onload="gen()">
+    <h3>Discount Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Vendor</th>
+                <th>Trade A</th>
+                <th>Trade B</th>
+                <th>Trade C</th>
+                <th>Trade D</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vender1</td>
+                <td>12</td>
+                <td>12</td>
+                <td>N/A</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Vender2</td>
+                <td>10</td>
+                <td>8</td>
+                <td>20</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Vender3</td>
+                <td>N/A</td>
+                <td>25</td>
+                <td>3</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Vender4</td>
+                <td>9</td>
+                <td>N/A</td>
+                <td>16</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Vender5</td>
+                <td>5</td>
+                <td>11</td>
+                <td>N/A</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Product table</h3>
+    <table id="productTable">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Tag</th>
+                <th>Vendor</th>
+                <th>cart</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <h3>Shopping cart</h3>
+    <table id="cartTable">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>ProductName</th>
+                <th>Original Price</th>
+                <th>Discount Percentage</th>
+                <th>Discount Price</th>
+                <th>Vendor</th>
+                <th>Remove Cart</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <h2 id="root"></h2>
+
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>

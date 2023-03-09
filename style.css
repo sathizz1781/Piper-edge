@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+th {
+    height: 70px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+td {
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    background-color:transparent;
+    height: 23px;
+    width: 100px;
+    border: none;
+    font-size: medium;
+}
+h3{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    text-align: center;
+    
+}
+
